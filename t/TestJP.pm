@@ -62,13 +62,14 @@ sub test_prefectures_id : Tests(2) {
     is( Geography::JapanesePrefectures::Unicode->prefectures_id(Encode::decode_utf8('和歌山県')), 30 );
 }
 
-sub test_prefectures_infos : Test(6) {
+sub test_prefectures_infos : Test(7) {
     my ( $self, ) = @_;
 
     is( ref(Geography::JapanesePrefectures->prefectures_infos()), "ARRAY" );
     is( scalar(@{Geography::JapanesePrefectures->prefectures_infos()}), 47 );
-    is_deeply( [sort keys %{Geography::JapanesePrefectures->prefectures_infos()->[0]}], [sort qw(id name region)] );
+    is_deeply( [sort keys %{Geography::JapanesePrefectures->prefectures_infos()->[0]}], [sort qw(id name region roman)] );
     is(Geography::JapanesePrefectures->prefectures_infos()->[0]->{name}, '北海道');
+    is(Geography::JapanesePrefectures->prefectures_infos()->[0]->{roman}, 'Hokkaido');
     ok !utf8::is_utf8(Geography::JapanesePrefectures->prefectures_infos()->[0]->{name});
     ok utf8::is_utf8(Geography::JapanesePrefectures::Unicode->prefectures_infos()->[0]->{name});
 }
