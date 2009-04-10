@@ -2,10 +2,7 @@ use inc::Module::Install;
 name 'Geography-JapanesePrefectures';
 all_from 'lib/Geography/JapanesePrefectures.pm';
 
-requires $_ for (qw/
-    version
-    List::MoreUtils
-/);
+requires 'List::MoreUtils';
 
 build_requires 'Test::Class';
 build_requires 'Test::More';
