@@ -4,6 +4,8 @@ all_from 'lib/Geography/JapanesePrefectures.pm';
 
 requires 'List::MoreUtils';
 
+author_tests('xt');
+
 build_requires 'Test::Class';
 build_requires 'Test::More';
 build_requires 'YAML';
