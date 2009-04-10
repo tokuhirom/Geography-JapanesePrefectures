@@ -11,10 +11,12 @@ sub test_prefectures : Test {
     is( scalar( Geography::JapanesePrefectures->prefectures ), 47 );
 }
 
-sub test_regions : Test(1) {
+sub test_regions : Test(2) {
     my ( $self, ) = @_;
 
     is( scalar( Geography::JapanesePrefectures->regions ), 11 );
+    my @regions = Geography::JapanesePrefectures->regions;
+    ok !utf8::is_utf8($regions[0]);
 }
 
 sub test_prefectures_in : Test(1) {
