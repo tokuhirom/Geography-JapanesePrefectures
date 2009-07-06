@@ -8,7 +8,6 @@ auto_set_repository();
 
 author_tests('xt');
 
-build_requires 'Test::Class';
 build_requires 'Test::More';
 build_requires 'YAML';
 use_test_base;
