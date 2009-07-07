@@ -3,6 +3,8 @@ Revision history for Perl extension Geography::JapanesePrefectures
 0.08
 
         - do not use Test::Class.
+        - depend to perl 5.8.1.
+          5.8.0 has a lot of issue
 
 0.07
 

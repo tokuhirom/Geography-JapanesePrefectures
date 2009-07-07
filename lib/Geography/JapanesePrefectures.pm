@@ -1,7 +1,7 @@
 package Geography::JapanesePrefectures;
 use strict;
 use warnings;
-use 5.00800;
+use 5.008001;
 our $VERSION = '0.08';
 
 use Geography::JapanesePrefectures::Unicode;
