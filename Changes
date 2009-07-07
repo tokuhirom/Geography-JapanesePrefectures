@@ -1,5 +1,9 @@
 Revision history for Perl extension Geography::JapanesePrefectures
 
+0.08
+
+        - do not use Test::Class.
+
 0.07
 
         - added Geography::JapanesePrefectures::Unicode for
