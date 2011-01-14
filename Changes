@@ -1,5 +1,9 @@
 Revision history for Perl extension Geography::JapanesePrefectures
 
+0.09
+
+        - fixed typo(nekokak)
+
 0.08
 
         - do not use Test::Class.
