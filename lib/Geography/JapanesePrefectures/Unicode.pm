@@ -114,33 +114,33 @@ This module allows you to get information on Japanese Prefectures names. and reg
 
 =head2 prefectures
 
-    my @prefectures = Geography::JapanesePrefectures->prefectures;
+    my @prefectures = Geography::JapanesePrefectures::Unicode->prefectures;
 
 get the prefectures names.
 
 =head2 regions
 
-    my @regions = Geography::JapanesePrefectures->regions;
+    my @regions = Geography::JapanesePrefectures::Unicode->regions;
 
 get the region names.
 
 =head2 prefectures_in
 
-    my @prefectures = Geography::JapanesePrefectures->prefectures_in('関東');
+    my @prefectures = Geography::JapanesePrefectures::Unicode->prefectures_in('関東');
     # => qw(茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 山梨県)
 
 get prefectures in region.
 
 =head2 prefectures_id
 
-    Geography::JapanesePrefectures->prefectures_id('和歌山県');
+    Geography::JapanesePrefectures::Unicode->prefectures_id('和歌山県');
     # => 30
 
 get prefecture's ID.
 
 =head2 prefectures_infos
 
-    Geography::JapanesePrefectures->prefectures_infos();
+    Geography::JapanesePrefectures::Unicode->prefectures_infos();
     # => [ { id => 1,  name => '北海道',    region => '北海道' }, ... ]
 
 get all informations.
