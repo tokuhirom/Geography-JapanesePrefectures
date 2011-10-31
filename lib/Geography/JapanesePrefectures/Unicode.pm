@@ -148,7 +148,7 @@ get all informations.
 =head1 THANKS TO
 
     Tatsuhiko Miyagawa
-    Yappo(Acme::Oppai)
+    Yappo
     nipotan
     Shot(for greeting)
     nekokak
