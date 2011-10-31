@@ -1,5 +1,10 @@
 Revision history for Perl extension Geography::JapanesePrefectures
 
+0.10
+
+        - fixed testing issue
+        - modernize packaging
+
 0.09
 
         - fixed typo(nekokak)

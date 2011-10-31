@@ -20,7 +20,6 @@
 \.sw[po]$
 \.git/
 \.gitignore
-^xt/
 ^\.git/
 ^[^/]+\.gz$
 ^Build$
