@@ -12,7 +12,6 @@ my $build = Module::Build->new(
     configure_requires   => { 'Module::Build' => '0.38' },
     requires             => {
         'perl'            => '5.008001',
-        'List::MoreUtils' => '0'
     },
     no_index    => { 'directory' => [ 'inc', 't', 'xt' ] },
     name        => 'Geography-JapanesePrefectures',

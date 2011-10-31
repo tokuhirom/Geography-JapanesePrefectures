@@ -2,7 +2,6 @@ package Geography::JapanesePrefectures::Unicode;
 use strict;
 use warnings;
 use utf8;
-use List::MoreUtils qw(uniq);
 
 our $PREFECTURES = [
     { id => 1,  name => '北海道',    region => '北海道',    roman => 'Hokkaido'},
@@ -61,7 +60,8 @@ sub prefectures {
 
 sub regions {
     my $self = shift;
-    return uniq map { $_->{region} } @$PREFECTURES;
+    my %uniq;
+    return grep { !$uniq{$_}++ } map { $_->{region} } @$PREFECTURES;
 }
 
 sub prefectures_in {

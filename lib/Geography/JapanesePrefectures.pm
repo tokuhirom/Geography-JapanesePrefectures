@@ -7,7 +7,6 @@ our $VERSION = '0.09';
 use Geography::JapanesePrefectures::Unicode;
 use Carp   ();
 use Encode ();
-use List::MoreUtils qw(uniq);
 
 sub prefectures {
     my $self = shift;
