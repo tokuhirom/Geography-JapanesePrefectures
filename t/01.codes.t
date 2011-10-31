@@ -1,13 +1,14 @@
 use strict;
 use warnings;
-use Test::More tests => 17;
+use Test::More 0.98;
 use Geography::JapanesePrefectures;
 
-while (my ($key, $val) = each %main::) {
-    if ($key =~ /^test_/) {
-        $val->();
+for my $key (keys %main::) {
+    if ($key =~ /^test_(.+)$/) {
+        subtest $1 => main->can($key);
     }
 }
+done_testing;
 
 sub test_prefectures {
     my ( $self, ) = @_;
