@@ -2,6 +2,10 @@ Revision history for Perl extension Geography::JapanesePrefectures
 
 {{$NEXT}}
 
+0.11 2013-12-16T08:21:30Z
+
+    - minil migrate
+
 0.10
 
         - fixed testing issue
