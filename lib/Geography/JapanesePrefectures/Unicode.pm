@@ -3,6 +3,8 @@ use strict;
 use warnings;
 use utf8;
 
+our $VERSION = '0.11';
+
 our $PREFECTURES = [
     { id => 1,  name => '北海道',    region => '北海道',    roman => 'Hokkaido'},
     { id => 2,  name => '青森県',    region => '東北',      roman => 'Aomori' },

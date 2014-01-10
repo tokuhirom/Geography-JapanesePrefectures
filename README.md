@@ -13,7 +13,7 @@ Tokuhiro Matsuno <tokuhirom@gmail.com>
 
 # SEE ALSO
 
-[http://ja.wikipedia.org/wiki/JIS\_X\_0401\#.E9.83.BD.E9.81.93.E5.BA.9C.E7.9C.8C.E3.82.B3.E3.83.BC.E3.83.89](http://ja.wikipedia.org/wiki/JIS\_X\_0401\#.E9.83.BD.E9.81.93.E5.BA.9C.E7.9C.8C.E3.82.B3.E3.83.BC.E3.83.89)
+[http://ja.wikipedia.org/wiki/JIS_X_0401#.E9.83.BD.E9.81.93.E5.BA.9C.E7.9C.8C.E3.82.B3.E3.83.BC.E3.83.89](http://ja.wikipedia.org/wiki/JIS_X_0401#.E9.83.BD.E9.81.93.E5.BA.9C.E7.9C.8C.E3.82.B3.E3.83.BC.E3.83.89)
 
 # LICENSE
 
